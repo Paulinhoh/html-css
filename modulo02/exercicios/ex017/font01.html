@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+
+    <style>
+      body {
+        font-family: 'Courier New';
+        /*
+          Medidas absolutas:
+            cm, mm, in (polegadas), px, pt, pc
+
+          Medidas Relativas:
+            em, ex, rem, vw, vh, %
+        */
+        font-size: 1em;
+        /*
+          16px geralmente é o tamanho padão
+          16px = 1em -> medidas recomendadas
+        */
+        font-weight: normal;
+        /*
+          lighter, normal, bold, bolder
+          Tambem tem a variação numrica de 100 à 900
+        */
+        font-style: italic;
+        text-decoration: none;
+      }
+
+      h1 {
+        /* font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic; */
+        /*
+          shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+        */
+        font: italic bolder 3em 'Times New Roman', sans-serif;
+      }
+
+      h2 {
+        font: bold 2em 'Work Sans';
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo
+      pariatur amet molestias exercitationem suscipit in neque vero a eveniet,
+      odio voluptatibus veniam, assumenda libero sed reiciendis quidem ab
+      corrupti? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Incidunt nisi deleniti, molestiae natus alias neque numquam cumque iure
+      consequuntur, voluptate quidem provident laborum praesentium omnis amet
+      autem nemo dicta. Ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum excepturi
+      quam officiis quo obcaecati in, commodi aperiam tempore sequi ullam quos
+      provident voluptate possimus quasi nostrum recusandae voluptatem nemo
+      voluptatum!
+    </p>
+
+    <h2>Subtitulo do Exercicio</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ipsa
+      nulla dicta a accusamus consequatur quas expedita ullam aliquid, soluta ea
+      quibusdam unde quia, distinctio explicabo quis sit sapiente commodi.
+    </p>
+  </body>
+</html>
